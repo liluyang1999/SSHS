@@ -6,7 +6,6 @@
 
 #include <string.h>
 #include <stdio.h>
-#include <windows.system.h>
 
 int main(int argc, char **argv) {
     char tree[5];
@@ -19,15 +18,6 @@ int main(int argc, char **argv) {
     strncpy(elephant,tree,strlen(tree));
 
     printf ("Elephant contains: %s\n",elephant);
-
-    char *string1 = "java -version";
-    int *a;
-    int a1 = 3;
-    a = &a1;
-    int *b;
-    int b1 = 4;
-    b = &b1;
-    printf("%.16x, %.16x, %.16x, %.16x");
 
     return 0;
 }
