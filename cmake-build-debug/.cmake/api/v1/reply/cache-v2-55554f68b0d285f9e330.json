@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "21"
+			"value" : "20"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/cygdrive/c/Users/liluyang1999/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/bin/cmake.exe"
+			"value" : "/usr/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/cygdrive/c/Users/liluyang1999/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/bin/cpack.exe"
+			"value" : "/usr/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/cygdrive/c/Users/liluyang1999/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/bin/ctest.exe"
+			"value" : "/usr/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -959,7 +959,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/cygdrive/c/Users/liluyang1999/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1"
+			"value" : "/usr/share/cmake-3.20.0"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1208,18 +1208,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "/cygdrive/d/C++/Code/SSHS/cmake-build-debug"
-		},
-		{
-			"name" : "SSHS_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
 		},
 		{
 			"name" : "SSHS_SOURCE_DIR",
