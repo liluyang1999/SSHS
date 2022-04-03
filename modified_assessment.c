@@ -29,7 +29,8 @@ typedef struct item item_t;
 /* given a possibly null list, insert a new item onto the front of it which
    contains string s.  s must be non-null */
 
-item_t* insert_item (char *s, item_t *list) {
+item_t *
+insert_item (char *s, item_t *list) {
    item_t *new;
 
    assert (s);
@@ -51,27 +52,29 @@ item_t* insert_item (char *s, item_t *list) {
 /* print a list out (it will be in the reverse order to how we
    built it). */
    
-void print_list (item_t *list, FILE *fd) {
+void
+print_list (item_t *list, FILE *fd) {
    char message[SIZE], *messagep = &message[0];
    item_t *scan;
    int i = 0;
  
    for (scan = list; scan; scan = scan->next) {
       /* make a nicely formatted version */
-      sprintf (messagep, "item %03d: %s\n", ++i, scan->s);
+      snprintf (messagep, SIZE, "item %03d: %s\n", ++i, scan->s);
       /* and print it out */
       fputs (message, fd);
    }
 }
 
-void delete_list (item_t *list) {
+void
+delete_list (item_t *list) {
    item_t *scan, *tmp;
 
    for (scan = list; scan; scan = tmp) {
       /* delete an item */
       tmp = scan->next;
-      free(scan->s);
-      free(scan);
+      free (scan->s);
+      free (scan);
    }
 }
 
@@ -79,12 +82,13 @@ void delete_list (item_t *list) {
 /* read lines from the input, and either add them to the list or
    (if it's null) print out the list so far */
    
-item_t * build_list (void) {
-   char input[SIZE];
+item_t *
+build_list (void) {
+   char input[SIZE]; 
    item_t *list = 0;
    char *cr;
-   
-    while (fgets (input, sizeof(input), stdin)) {
+ 
+   while (fgets (input, sizeof(input), stdin)) {
      cr = strchr (input, '\n');
      if (cr) {
         *cr = '\0';
@@ -98,7 +102,8 @@ item_t * build_list (void) {
   return list;
 }
 
-int main (int argc, char **argv) {
+int 
+main (int argc, char **argv) {
    item_t *list;
 
 
@@ -108,7 +113,7 @@ int main (int argc, char **argv) {
       fputs ("type control-D in order to end your input\n", stderr);
    }
    list = build_list ();
-
+   
    /* print it again as we exit */
    print_list (list, stdout);
    /* and clean up the memory we used */

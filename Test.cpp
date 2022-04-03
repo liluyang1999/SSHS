@@ -6,12 +6,10 @@
 using namespace std;
 
 int main() {
-    char* p1 = (char*)malloc(50);
-    fgets(p1, BUFSIZ, stdin);
-    char* ch = strchr(p1, '\n');
-    *ch = '\0';
-    printf("%s\n", p1);
-
+    char message[64];
+    char* messagePtr = message;
+    fgets(message, 10, stdin);
+    printf("%s\n", message);
     return 0;
 }
 

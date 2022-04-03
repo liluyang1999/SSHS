@@ -66,9 +66,9 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_SSHS: phony || CMakeFiles/SSHS.dir
 
-build CMakeFiles/SSHS.dir/assessment.c.o: C_COMPILER__SSHS_Debug ../assessment.c || cmake_object_order_depends_target_SSHS
-  DEP_FILE = CMakeFiles/SSHS.dir/assessment.c.o.d
-  FLAGS = -g
+build CMakeFiles/SSHS.dir/Test.cpp.o: CXX_COMPILER__SSHS_Debug ../Test.cpp || cmake_object_order_depends_target_SSHS
+  DEP_FILE = CMakeFiles/SSHS.dir/Test.cpp.o.d
+  FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/SSHS.dir
   OBJECT_FILE_DIR = CMakeFiles/SSHS.dir
 
@@ -80,7 +80,7 @@ build CMakeFiles/SSHS.dir/assessment.c.o: C_COMPILER__SSHS_Debug ../assessment.c
 #############################################
 # Link the executable SSHS.exe
 
-build SSHS.exe: C_EXECUTABLE_LINKER__SSHS_Debug CMakeFiles/SSHS.dir/assessment.c.o
+build SSHS.exe: CXX_EXECUTABLE_LINKER__SSHS_Debug CMakeFiles/SSHS.dir/Test.cpp.o
   FLAGS = -g
   LINK_FLAGS = -Wl,--enable-auto-import
   OBJECT_DIR = CMakeFiles/SSHS.dir

@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/cygdrive/d/Development/apps/CLion/ch-0/213.6777.58/bin/ninja/cygwin/ninja.exe"
+			"value" : "/cygdrive/d/Development/apps/CLion/ch-0/213.7172.20/bin/ninja/cygwin/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",

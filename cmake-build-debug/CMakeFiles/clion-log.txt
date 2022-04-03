@@ -1,4 +1,4 @@
-D:\C++\Cygwin\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/cygdrive/d/Development/apps/CLion/ch-0/213.6777.58/bin/ninja/cygwin/ninja.exe -G Ninja /cygdrive/d/C++/Code/SSHS
+D:\C++\Cygwin\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/cygdrive/d/Development/apps/CLion/ch-0/213.7172.20/bin/ninja/cygwin/ninja.exe -G Ninja /cygdrive/d/C++/Code/SSHS
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cygdrive/d/C++/Code/SSHS/cmake-build-debug

@@ -4,4 +4,4 @@ project(SSHS)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(SSHS assessment.c)
+add_executable(SSHS Test.cpp)

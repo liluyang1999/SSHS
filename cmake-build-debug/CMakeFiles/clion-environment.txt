@@ -1,4 +1,4 @@
 ToolSet: 3.3.4 (local)@D:\C++\Cygwin
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=/cygdrive/d/Development/apps/CLion/ch-0/213.6777.58/bin/ninja/cygwin/ninja.exe
+Options:-DCMAKE_MAKE_PROGRAM=/cygdrive/d/Development/apps/CLion/ch-0/213.7172.20/bin/ninja/cygwin/ninja.exe
