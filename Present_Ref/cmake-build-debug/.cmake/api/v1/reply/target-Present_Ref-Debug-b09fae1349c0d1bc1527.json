@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SSHS.exe"
+			"path" : "Present_Ref.exe"
 		},
 		{
-			"path" : "SSHS.pdb"
+			"path" : "Present_Ref.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -41,25 +41,26 @@
 					"fragment" : "-g"
 				},
 				{
-					"fragment" : "-std=gnu++2a"
+					"fragment" : "-std=gnu99"
 				}
 			],
-			"language" : "CXX",
+			"language" : "C",
 			"languageStandard" : 
 			{
 				"backtraces" : 
 				[
 					1
 				],
-				"standard" : "23"
+				"standard" : "99"
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "SSHS::@6890427a1f51a3e7e1df",
+	"id" : "Present_Ref::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -73,10 +74,10 @@
 				"role" : "flags"
 			}
 		],
-		"language" : "CXX"
+		"language" : "C"
 	},
-	"name" : "SSHS",
-	"nameOnDisk" : "SSHS.exe",
+	"name" : "Present_Ref",
+	"nameOnDisk" : "Present_Ref.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -88,7 +89,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -97,7 +99,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Test.cpp",
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto.c",
 			"sourceGroupIndex" : 0
 		}
 	],

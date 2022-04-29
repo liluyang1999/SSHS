@@ -1,0 +1,4 @@
+# ninja log v5
+4	685	1650115719035008600	CMakeFiles/Present_Ref.dir/main.c.o	e0104c3e23b184f6
+154	339	1650121025979563300	Present_Ref.exe	87850e3465a4af4
+3	154	1650121025823319600	CMakeFiles/Present_Ref.dir/InitialCrypto.c.o	328692baf2b35f84
